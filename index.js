@@ -1,41 +1,46 @@
 const inquirer = require("inquirer");
+// one group spot for question
 const questions = require("./utils/questions");
+// need fs
+// const fs = require("fs");
 
 function askWhoElse(){
-    return inquirer.prompt([
-        {
-            message: "Would you like to add more roles?",
-            name: "role",
-            type: "list",
-            choices:[
-                "Engineer",
-                "Intern",
-                "No one else to add"
-            ]
-        }
-    ]).then(response => {
-        return pickRole(response.role);
-    }).then(response => {
-
-        if(response !== false){
-            return askWhoElse();
-        }
-    })
+  return inquirer.prompt([
+    {
+      message: "Would you like to add more roles?",
+      name: "role",
+      type: "list",
+      choices:[
+        "Engineer",
+        "Intern",
+        "No one else to add"
+      ]
+    }
+  ]).then(response => {
+    return pickRole(response.role);
+  }).then(response => {
+    if(response !== false){
+      return askWhoElse();
+    }
+  })
 }
 
 function pickRole(role){
-
-
-    if (role.toLowerCase() === 'engineer'){
-        return inquirer.prompt(questions.engineerQuestions)
-    } 
-    if (role.toLowerCase() === "intern"){
-        return inquirer.prompt(questions.internQuestions)
-    }
-    return false;
+  if (role.toLowerCase() === 'engineer'){
+    return inquirer.prompt(questions.engineerQuestions)
+  } 
+  if (role.toLowerCase() === "intern"){
+    return inquirer.prompt(questions.internQuestions)
+  }
+  return false;
 }
 
 inquirer.prompt(questions.managerQuestions)
-    .then (response => {
-        return askWhoElse()
-    })
+  .then (response => {
+    return askWhoElse()
+  })
+
+  // fs.writeFile('newfile.html', html, function (err) {
+  //   if (err) throw err;
+  //   console.log('File is created successfully.');
+  // });
