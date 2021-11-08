@@ -46,7 +46,7 @@ const internQuestions = [
 ];
 
 module.exports = {
-    managerQuestions,
-    engineerQuestions,
-    internQuestions
+  managerQuestions,
+  engineerQuestions,
+  internQuestions
 }
