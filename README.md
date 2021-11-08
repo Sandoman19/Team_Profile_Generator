@@ -18,7 +18,7 @@ watch video for how to use.
 ## Usage
 watch video for how to use.
 
-![How_To_Guide](Image_Vid/image.png)
+![How_To_Guide](Image_Vid/How_To_Guide.mp4)
 ## License
 This repository is licensed under the MIT license.
 ## Contributing
