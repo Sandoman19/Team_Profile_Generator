@@ -12,13 +12,15 @@ This app was made to generate a team profile based on a user input. the profile 
 * [Questions](#questions)
 ## Installation
 To install dependencies, run the following:
-`
-watch video for how to use.
-`
 ## Usage
 watch video for how to use.
+`
+watch video for how to
 
-![How_To_Guide](https://github.com/Sandoman19/Team_Profile_Generator/blob/main/Image_Vid/How_To_Guide.mp4)
+![How_To_Guide]https://github.com/Sandoman19/Team_Profile_Generator/blob/main/Image_Vid/How_To_Guide.mp4
+
+ use.
+`
 ## License
 This repository is licensed under the MIT license.
 ## Contributing
