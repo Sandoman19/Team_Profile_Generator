@@ -14,13 +14,9 @@ This app was made to generate a team profile based on a user input. the profile 
 To install dependencies, run the following:
 ## Usage
 watch video for how to use.
-`
-watch video for how to
 
-![How_To_Guide]https://github.com/Sandoman19/Team_Profile_Generator/blob/main/Image_Vid/How_To_Guide.mp4
+https://user-images.githubusercontent.com/85202819/140703871-174629bc-633d-4b9b-9257-846fbdd66f38.mp4
 
- use.
-`
 ## License
 This repository is licensed under the MIT license.
 ## Contributing
