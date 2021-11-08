@@ -2,7 +2,7 @@
 ![licenseBadge](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Description
-This app was made to generate a team profile based on a user input. the profile was made using Node.js and will be displayed in a HTML format. This project demonstrates use of OOP and TDD using Jest.
+This app was made to generate a team profile based on a user input. the profile was made using Node.js and will be displayed in a HTML format. This project demonstrates use of OOP and TDD using Jest.![Image_of_HTML](Image_Vid/image.png)
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#used)
@@ -17,7 +17,8 @@ watch video for how to use.
 `
 ## Usage
 watch video for how to use.
-![screenshot1](Image_Vid/image.png)
+
+![How_To_Guide](Image_Vid/image.png)
 ## License
 This repository is licensed under the MIT license.
 ## Contributing
