@@ -2,7 +2,7 @@
 ![licenseBadge](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Description
-This app was made to generate a team profile based on a user input. the profile was made using Node.js and will be displayed in a HTML format. This project demonstrates use of OOP and TDD using Jest.![Image_of_HTML]<img src="Image_Vid/image.png">
+This app was made to generate a team profile based on a user input. the profile was made using Node.js and will be displayed in a HTML format. This project demonstrates use of OOP and TDD using Jest.![Image_of_HTML](https://github.com/Sandoman19/Team_Profile_Generator/blob/main/Image_Vid/Image.PNG)
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#used)
@@ -18,7 +18,7 @@ watch video for how to use.
 ## Usage
 watch video for how to use.
 
-![How_To_Guide][Image_Vid/How_To_Guide.mp4]
+![How_To_Guide](https://github.com/Sandoman19/Team_Profile_Generator/blob/main/Image_Vid/How_To_Guide.mp4)
 ## License
 This repository is licensed under the MIT license.
 ## Contributing
